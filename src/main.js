@@ -1,5 +1,5 @@
 const addButton = document.querySelector('.add--js');
-const substractButton = document.querySelector('.substract--js');
+const subtractButton = document.querySelector('.subtract--js');
 const counterValue = document.querySelector('.counter--js');
 
 let glasses = 0;
@@ -22,7 +22,7 @@ addButton.addEventListener('click', () => {
     setCounterValue(glasses);
 })
 
-substractButton.addEventListener('click', () => {
+subtractButton.addEventListener('click', () => {
     if (glasses >= 1){
     glasses = glasses - 1;
     setCounterValue(glasses);
